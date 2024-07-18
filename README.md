@@ -32,8 +32,8 @@ self._TERMINAL = [[False, False, False, False, False],
 
 To display a grid as in fig1 and fig2, run:
 
-\grid = Grid()
-\display = Display(grid)
-\display.update_display()
+grid = Grid()\
+display = Display(grid)\
+display.update_display()\
 
 
