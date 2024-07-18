@@ -40,21 +40,21 @@ display.update_display()
 
 
 To create a train a policy, you create a new policy object by\
-policy = Policy()\
+-policy = Policy()\
 Then, you can run any of\
-policy.solve_system()\
-policy.policy_iteration()\
-policy.value_iteration()\
+-policy.solve_system()\
+-policy.policy_iteration()\
+-policy.value_iteration()\
 For each method. Once the value function is estimated, run\
-print(policy)\
+-print(policy)\
 To display the value function or\
-print(policy.display_actions)\
+-print(policy.display_actions)\
 To display the actions. To use Monte Carlo methods, create a new Monte Carlo object by\
-MC = MonteCarlo()\
+-MC = MonteCarlo()\
 Then, run any of\
-MC.exploring_starts(epsilon=0.0)\
-MC.behavior_policy()\
+-MC.exploring_starts(epsilon=0.0)\
+-MC.behavior_policy()\
 To display actions, again:
-print(MC._policy.display_actions())
+-print(MC._policy.display_actions())
 
 
